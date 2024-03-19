@@ -1,5 +1,5 @@
 name: GitHub Actions Demo
-run-name: date show
+run-name: ${{ github.actor }} date show
 on: [push]
 jobs:
   Explore-GitHub-Actions:
