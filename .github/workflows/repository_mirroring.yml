@@ -1,5 +1,5 @@
 name: GitHub Actions Demo
-run-name: ${{ github.actor }} show the date
+run-name: ${{ github.actor }} mirror
 on: [push]
 jobs:
   Explore-GitHub-Actions:
