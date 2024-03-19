@@ -1,0 +1,8 @@
+name: GitHub Actions Demo
+run-name: date show
+on: [push]
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: fedora
+    steps:
+      - run: date
