@@ -17,4 +17,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: check.sh $(pwd) $(pwd)
-      - run: echo "::error::$(cat coding-style-reports.log)"
+      - run: |
+        while read Ligne
+        do echo "::error::$Ligne"
+        done < coding-style-reports.log
