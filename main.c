@@ -10,4 +10,5 @@
 int main(int argc, char **argv)
 {
     printf("lolo\n");
+    int l = 0;         
 }
